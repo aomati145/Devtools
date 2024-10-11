@@ -77,11 +77,11 @@ WSGI_APPLICATION = 'eldercare.wsgi.application'
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": "shop_db",
+        "NAME": "postgres",
         "USER": "postgres",
         # "PASSWORD": "2453",
-        "PASSWORD": "password",
-        "HOST": "localhost",
+        "PASSWORD": "guyza1234",
+        "HOST": "34.143.182.140",
         "PORT": "5432",
     }
 }
