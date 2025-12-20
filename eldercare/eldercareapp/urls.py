@@ -1,9 +1,9 @@
-# eldercare/urls.py
+# eldercareapp/urls.py
 
 from django.urls import path
 from . import views
 
-app_name = 'eldercare'  # สำคัญมาก! เพื่อให้สามารถเรียกใช้ URL ได้ถูกต้อง
+app_name = 'eldercareapp'  # สำคัญมาก! เพื่อให้สามารถเรียกใช้ URL ได้ถูกต้อง
 
 urlpatterns = [
     path('create_appointment/', views.create_appointment, name='create_appointment'),
